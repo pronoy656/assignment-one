@@ -68,5 +68,49 @@ margin-bottom: 48px;
 .section-description img {
     width: 802.9px;
 height: 500px;
+margin-bottom: 120px;
 }
+/* ------------section 2------------------ */
+.welcome {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+}
+.welcome-text{
+    width: 600px;
+    max-width: 655px;
+    padding: 370px;
+    color: white;
+    font-family: Merriweather;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    
+}
+.party{
+    background-image: url("images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width:fixed;
+}
+.welcome-img{
+    justify-content: center;
+align-items: center;
+}
+button{
+    margin-top: 40px;
+    background-color: black;
+    color: #FFF;
+    border: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
 
