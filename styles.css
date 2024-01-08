@@ -13,8 +13,7 @@
     background-image:url("images/Banner\ Image.png") ;
     width: 100%;
     max-width: 1320px;
-    margin: 0 auto;
-    border-radius: 16px;
+    margin: 20px auto;
     border-radius: 16px;
 }
 .banner-text {
@@ -320,7 +319,7 @@ button{
 .social{
     display: flex;
     gap: 24px;
-    padding: 48px 560px;
+    padding: 48px 585px;
    
 }
 .media{
