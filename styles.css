@@ -87,9 +87,13 @@ margin-bottom: 120px;
 .party{
     background-image: url("images/Vectorrr.png");
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center;
     height: auto;
-    width:fixed;
+    width:fixed; */
+    width: 100%;
+   max-width: 1320px;
+   margin: 120px auto;
+
 }
 
 .welcome-img{
@@ -136,6 +140,69 @@ button{
     padding: 16px 32px;
     border-radius: 8px;
     font-family: Inter;
+}
+#festible{
+    width: 100%;
+    max-width: 1320px;
+    margin: 120px auto;
+    background-image:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+}
+.newyear{
+    display: flex;
+}
+.festible{
+    background-image:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+}
+.friends{
+  background: #FFF;
+  width: 1600px;
+  border: 15px solid red;
+  border-radius: 463px;
+  width: 360px;
+  height: 360px;
+}
+.offer{
+   max-width: 393px;
+}
+#one{
+    padding-top: 65px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+#two{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+#three{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.year{
+    max-width: 275px;
+    align-items: end;
+}
+#four {
+    padding-top: 65px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+#five{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 22px;
 }
 .gift {
     width: 100%;
@@ -215,15 +282,30 @@ button{
     font-weight: 400;
     line-height: 32px; /* 160% */
     }
-.newslater form{
-    display: flex;
+   .newslater-input{
+    text-align: center;
+    padding-bottom: 80px;
+   }
+.newslater-input input{
+    width: 620px;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 50px;
+    border: none;
+    
+}
+.newslater-input button{
+    border-radius: 50px;
+    padding: 0 -1px;
 }
 .footer-thing{
     background: #070211;
    
 }
-.footer-text{
+.footer-text {
     color: #FFF;
+    
 }
 .footer-text-one{
     color: #FFF;
@@ -233,12 +315,29 @@ button{
     display: flex;
     justify-content: space-between;
     padding: 120px 140px;
-
-    
 }
 
 .social{
     display: flex;
     gap: 24px;
+    padding: 48px 560px;
+   
+}
+.media{
     align-items: center;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 140px;
+}
+.last {
+    color: #FFF;
+}
+.last-one{
+    color: #FFF;
+}
+.line{
+    background-color:  rgba(255, 255, 255, 0.15);
+    height: 1px;
 }
