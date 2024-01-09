@@ -10,7 +10,7 @@
 }
 
 .bg-image{
-    background-image:url("images/Banner\ Image.png") ;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banner\ Image.png") ;
     width: 100%;
     max-width: 1320px;
     margin: 20px auto;
@@ -75,7 +75,7 @@ margin-bottom: 120px;
 .welcome-text{
     width: 600px;
     max-width: 655px;
-    padding: 200px;
+    padding: 130px;
     color: white;
     font-family: Merriweather;
     font-size: 14px;
@@ -84,15 +84,12 @@ margin-bottom: 120px;
     
 }
 .party{
-    background-image: url("images/Vectorrr.png");
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Vectorrr.png");
     background-repeat: no-repeat;
-    /* background-position: center;
-    height: auto;
-    width:fixed; */
     width: 100%;
-   max-width: 1320px;
-   margin: 120px auto;
-
+    height: 600px;
+    max-width: 1320px;
+    margin: 120px auto;
 }
 
 .welcome-img{
@@ -111,6 +108,9 @@ button{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+button:hover{
+    background-color: rgb(250, 150, 116);
 }
 #grad{
    height: 482px;
@@ -159,6 +159,10 @@ button{
   border-radius: 463px;
   width: 360px;
   height: 360px;
+  padding: 30px;
+}
+.round{
+margin-left: 50px;
 }
 .offer{
    max-width: 393px;
@@ -187,6 +191,7 @@ button{
 .year{
     max-width: 275px;
     align-items: end;
+    padding-left:  85px;
 }
 #four {
     padding-top: 65px;
@@ -247,6 +252,10 @@ button{
     font-weight: 400;
     line-height: 32px; /* 160% */
 }
+.product:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
 .subscribe{
     width: 100%;
     max-width: 1320px;
@@ -296,7 +305,6 @@ button{
 }
 .newslater-input button{
     border-radius: 50px;
-    padding: 0 -1px;
 }
 .footer-thing{
     background: #070211;
